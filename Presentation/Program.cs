@@ -6,10 +6,17 @@ using XMP.Application.Services;
 using XMP.Domain.Repositories;
 using XMP.Infrastructure.Repositories;
 
+
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables()
+    .Build();
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IDbConnection>((sp) =>
 {
-    var connectionString = "Server=127.0.0.1;Port=5432;Database=financedb;User Id=finance;Password=111;"; // Replace with your connection string
+    var connectionString = configuration.GetConnectionString("dbPostgreSQLConnection"); // Replace with your connection string
+     // Replace with your connection string
     return new NpgsqlConnection(connectionString);
 });
 
