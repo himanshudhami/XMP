@@ -1,0 +1,11 @@
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/bin/Debug/net8.0/XMP.Infrastructure.deps.json
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/bin/Debug/net8.0/XMP.Infrastructure.dll
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/bin/Debug/net8.0/XMP.Infrastructure.pdb
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/XMP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/XMP.Infrastructure.AssemblyInfoInputs.cache
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/XMP.Infrastructure.AssemblyInfo.cs
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/XMP.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/XMP.Infrastructure.dll
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/refint/XMP.Infrastructure.dll
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/XMP.Infrastructure.pdb
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/obj/Debug/net8.0/ref/XMP.Infrastructure.dll

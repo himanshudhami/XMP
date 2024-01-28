@@ -1,0 +1,11 @@
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/bin/Debug/net8.0/XMP.Domain.deps.json
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/bin/Debug/net8.0/XMP.Domain.dll
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/bin/Debug/net8.0/XMP.Domain.pdb
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/XMP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/XMP.Domain.AssemblyInfoInputs.cache
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/XMP.Domain.AssemblyInfo.cs
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/XMP.Domain.csproj.CoreCompileInputs.cache
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/XMP.Domain.dll
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/refint/XMP.Domain.dll
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/XMP.Domain.pdb
+/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/Debug/net8.0/ref/XMP.Domain.dll
