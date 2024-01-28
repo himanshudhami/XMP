@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/pBPlFW5Ztfit5C5+h1tQk1qI3sPRkTvkZWQQLH8xeC80gjaSyD83d+tljyGjwUKIobfkxWH22zOTEJaSlf++g==",
+  "dgSpecHash": "oCORobGI/mLhL8/48RXIuCMElZ48DEoOYuZwXrLLs45p4RlAHdbbEjSQfA++ulOzaptY2QqJw/wQ9nC/IXT32A==",
   "success": true,
-  "projectFilePath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Infrastructure/XMP.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\WorkProjects\\XMP\\Infrastructure\\XMP.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hd\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
+    "C:\\Users\\hd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\hd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\hd\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

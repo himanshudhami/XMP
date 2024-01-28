@@ -5,7 +5,7 @@ using Dapper;
 using XMP.Domain.Entities;
 using XMP.Domain.Repositories;
 
-namespace YourProjectName.Infrastructure.Repositories
+namespace XMP.Infrastructure.Repositories
 {
     public class AxisBankTransactionRepository : IAxisBankTransactionRepository
     {

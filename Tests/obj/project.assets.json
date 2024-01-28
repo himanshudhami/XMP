@@ -1069,24 +1069,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/himanshudhami/.nuget/packages/": {}
+    "C:\\Users\\hd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Tests/XMP.Tests.csproj",
+      "projectUniqueName": "D:\\WorkProjects\\XMP\\Tests\\XMP.Tests.csproj",
       "projectName": "XMP.Tests",
-      "projectPath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Tests/XMP.Tests.csproj",
-      "packagesPath": "/Users/himanshudhami/.nuget/packages/",
-      "outputPath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Tests/obj/",
+      "projectPath": "D:\\WorkProjects\\XMP\\Tests\\XMP.Tests.csproj",
+      "packagesPath": "C:\\Users\\hd\\.nuget\\packages\\",
+      "outputPath": "D:\\WorkProjects\\XMP\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/himanshudhami/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1138,7 +1140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

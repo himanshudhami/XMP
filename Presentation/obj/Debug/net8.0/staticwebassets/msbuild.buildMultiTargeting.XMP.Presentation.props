@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/XMP.Presentation.props" />
+  <Import Project="..\build\XMP.Presentation.props" />
 </Project>

@@ -1,25 +1,96 @@
 {
   "format": 1,
   "restore": {
-    "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Application/XMP.Application.csproj": {}
+    "D:\\WorkProjects\\XMP\\Application\\XMP.Application.csproj": {}
   },
   "projects": {
-    "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Application/XMP.Application.csproj": {
+    "D:\\WorkProjects\\XMP\\Application\\XMP.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Application/XMP.Application.csproj",
+        "projectUniqueName": "D:\\WorkProjects\\XMP\\Application\\XMP.Application.csproj",
         "projectName": "XMP.Application",
-        "projectPath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Application/XMP.Application.csproj",
-        "packagesPath": "/Users/himanshudhami/.nuget/packages/",
-        "outputPath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Application/obj/",
+        "projectPath": "D:\\WorkProjects\\XMP\\Application\\XMP.Application.csproj",
+        "packagesPath": "C:\\Users\\hd\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkProjects\\XMP\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/himanshudhami/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj": {
+                "projectPath": "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj",
+        "projectName": "XMP.Domain",
+        "projectPath": "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj",
+        "packagesPath": "C:\\Users\\hd\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkProjects\\XMP\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/XMP.Domain.csproj": {}
+    "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj": {}
   },
   "projects": {
-    "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/XMP.Domain.csproj": {
+    "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/XMP.Domain.csproj",
+        "projectUniqueName": "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj",
         "projectName": "XMP.Domain",
-        "projectPath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/XMP.Domain.csproj",
-        "packagesPath": "/Users/himanshudhami/.nuget/packages/",
-        "outputPath": "/Users/himanshudhami/WorkProjects/dotnetcoreprojects/XMP/Domain/obj/",
+        "projectPath": "D:\\WorkProjects\\XMP\\Domain\\XMP.Domain.csproj",
+        "packagesPath": "C:\\Users\\hd\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkProjects\\XMP\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/himanshudhami/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
