@@ -1,20 +1,33 @@
+using System;
 using System.Data;
+using Microsoft.Extensions.Configuration;
 using Npgsql;
 
-namespace YourProjectName.Infrastructure.Data
+public class DapperDbContext : IDisposable
 {
-    public class DapperDbContext
+    private readonly IDbConnection _connection;
+
+    public DapperDbContext(IConfiguration configuration)
     {
-        private readonly string _connectionString;
+        var connectionString = configuration.GetConnectionString("dbPostgreSQLConnection");
+        _connection = new NpgsqlConnection(connectionString);
+    }
 
-        public DapperDbContext(string connectionString)
+    public IDbConnection GetConnection()
+    {
+        if (_connection.State != ConnectionState.Open)
         {
-            _connectionString = connectionString;
+            _connection.Open();
         }
+        return _connection;
+    }
 
-        public IDbConnection CreateConnection()
+    public void Dispose()
+    {
+        if (_connection.State != ConnectionState.Closed)
         {
-            return new NpgsqlConnection(_connectionString);
+            _connection.Close();
         }
+        _connection.Dispose();
     }
 }

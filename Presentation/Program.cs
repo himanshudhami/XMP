@@ -13,12 +13,7 @@ var configuration = new ConfigurationBuilder()
     .AddEnvironmentVariables()
     .Build();
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddScoped<IDbConnection>((sp) =>
-{
-    var connectionString = configuration.GetConnectionString("dbPostgreSQLConnection"); // Replace with your connection string
-     // Replace with your connection string
-    return new NpgsqlConnection(connectionString);
-});
+builder.Services.AddScoped<DapperDbContext>();
 
 // Add services to the container.
 

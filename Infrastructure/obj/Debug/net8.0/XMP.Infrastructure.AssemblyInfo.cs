@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XMP.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b84c8f7dd6f53ffc14a75c85767488ed4f183011")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96b64ff8c14bd2e56c1459b17a714924b9089890")]
 [assembly: System.Reflection.AssemblyProductAttribute("XMP.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XMP.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
