@@ -6,7 +6,7 @@ namespace XMP.Domain.Repositories
 {
     public interface IAxisBankTransactionRepository
     {
-        Task<IEnumerable<AxisBankTransaction>> GetAllAsync();
+        Task<IEnumerable<AxisBankTransaction>> GetAllAsync(int pageNumber,int pageSize);
         Task<AxisBankTransaction> GetByIdAsync(int id);
         Task AddAsync(AxisBankTransaction transaction);
         Task UpdateAsync(AxisBankTransaction transaction);
