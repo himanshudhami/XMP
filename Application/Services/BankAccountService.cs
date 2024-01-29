@@ -20,11 +20,12 @@ namespace XMP.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<AxisBankTransactionDto>> GetAllTransactionsAsync()
+        public async Task<IEnumerable<AxisBankTransactionDto>> GetAllTransactionsAsync(int pageNumber, int pageSize)
         {
-            var transactions = await _transactionRepository.GetAllAsync();
+            var transactions = await _transactionRepository.GetAllAsync(pageNumber, pageSize);
             return _mapper.Map<IEnumerable<AxisBankTransactionDto>>(transactions);
         }
+
 
         public async Task<AxisBankTransactionDto> GetTransactionByIdAsync(int id)
         {

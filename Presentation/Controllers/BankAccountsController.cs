@@ -18,11 +18,16 @@ namespace XMP.Presentation.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll(int pageNumber = 1, int pageSize = 10)
         {
             try
             {
-                var transactions = await _transactionService.GetAllTransactionsAsync();
+                if (pageNumber <= 0 || pageSize <= 0)
+                {
+                    return BadRequest("Invalid page number or page size.");
+                }
+
+                var transactions = await _transactionService.GetAllTransactionsAsync(pageNumber, pageSize);
                 return Ok(transactions);
             }
             catch (Exception ex)
@@ -31,6 +36,7 @@ namespace XMP.Presentation.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)

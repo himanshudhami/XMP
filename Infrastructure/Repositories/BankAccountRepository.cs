@@ -17,10 +17,17 @@ namespace XMP.Infrastructure.Repositories
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
         }
 
-        public async Task<IEnumerable<AxisBankTransaction>> GetAllAsync()
+        public async Task<IEnumerable<AxisBankTransaction>> GetAllAsync(int pageNumber, int pageSize)
         {
+            if (pageNumber <= 0 || pageSize <= 0)
+            {
+                throw new ArgumentException("PageNumber and PageSize must be positive integers.");
+            }
+
             using var connection = _dbContext.GetConnection();
-            var query = "SELECT * FROM axisbank_transactions";
+            var skip = (pageNumber - 1) * pageSize;
+            var take = pageSize;
+            var query = $"SELECT * FROM axisbank_transactions ORDER BY id OFFSET {skip} ROWS FETCH NEXT {take} ROWS ONLY";
             return await connection.QueryAsync<AxisBankTransaction>(query);
         }
 
