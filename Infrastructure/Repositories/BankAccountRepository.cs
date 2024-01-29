@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Dapper;
 using XMP.Domain.Entities;
 using XMP.Domain.Repositories;
+using XMP.Infrastructure.DbContext;
 
 namespace XMP.Infrastructure.Repositories
 {

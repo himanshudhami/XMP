@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XMP.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96b64ff8c14bd2e56c1459b17a714924b9089890")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14c70126fda1a1fdf274c6b47fbf109adc4d7493")]
 [assembly: System.Reflection.AssemblyProductAttribute("XMP.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XMP.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

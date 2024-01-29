@@ -5,6 +5,7 @@ using XMP.Application.Interfaces;
 using XMP.Application.Services;
 using XMP.Domain.Repositories;
 using XMP.Infrastructure.Repositories;
+using XMP.Infrastructure.DbContext;
 
 
 var configuration = new ConfigurationBuilder()

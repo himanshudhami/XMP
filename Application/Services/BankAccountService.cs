@@ -4,10 +4,8 @@ using AutoMapper;
 using XMP.Application.DTOs;
 using XMP.Domain.Entities;
 using XMP.Domain.Repositories;
-using XMP.Application.DTOs;
 using XMP.Application.Interfaces;
-using XMP.Domain.Entities;
-using XMP.Domain.Repositories;
+
 
 namespace XMP.Application.Services
 {
