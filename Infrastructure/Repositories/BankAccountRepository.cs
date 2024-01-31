@@ -43,9 +43,12 @@ namespace XMP.Infrastructure.Repositories
             using var connection = _dbContext.GetConnection();
             var query = @"INSERT INTO axisbank_transactions 
                         (transactiondate, valuedate, chequenumber, transactiondetails, amounttransferred, 
-                         typeoftransaction, balanceamount, bankbranchname, bankname, companyname) 
-                        VALUES (@TransactionDate, @ValueDate, @ChequeNumber, @TransactionDetails, @AmountTransferred, 
-                                @TypeOfTransaction, @BalanceAmount, @BankBranchName, @BankName, @CompanyName)";
+                         typeoftransaction, balanceamount, bankbranchname, bankname, companyname, 
+                         receivername, transactioncategory, typeoftax, taxpercentage) 
+                         VALUES 
+                        (@TransactionDate, @ValueDate, @ChequeNumber, @TransactionDetails, @AmountTransferred, 
+                         @TypeOfTransaction, @BalanceAmount, @BankBranchName, @BankName, @CompanyName, 
+                         @ReceiverName, @TransactionCategory, @TypeOfTax, @TaxPercentage)";
             await connection.ExecuteAsync(query, transaction);
         }
 
@@ -56,7 +59,10 @@ namespace XMP.Infrastructure.Repositories
                         transactiondate = @TransactionDate, valuedate = @ValueDate, chequenumber = @ChequeNumber, 
                         transactiondetails = @TransactionDetails, amounttransferred = @AmountTransferred, 
                         typeoftransaction = @TypeOfTransaction, balanceamount = @BalanceAmount, 
-                        bankbranchname = @BankBranchName, bankname = @BankName, companyname = @CompanyName 
+                        bankbranchname = @BankBranchName, bankname = @BankName, companyname = @CompanyName, receivername = @ReceiverName,
+                        transactioncategory = @TransactionCategory,
+                        typeoftax = @TypeOfTax,
+                        taxpercentage = @TaxPercentage 
                         WHERE id = @Id";
             await connection.ExecuteAsync(query, transaction);
         }

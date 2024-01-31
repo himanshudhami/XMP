@@ -21,6 +21,10 @@ namespace XMP.Application.Mappers
                 .ForMember(dest => dest.BankBranchName, opt => opt.MapFrom(src => src.BankBranchName))
                 .ForMember(dest => dest.BankName, opt => opt.MapFrom(src => src.BankName))
                 .ForMember(dest => dest.CompanyName, opt => opt.MapFrom(src => src.CompanyName))
+                .ForMember(dest => dest.ReceiverName, opt => opt.MapFrom(src => src.ReceiverName))
+                .ForMember(dest => dest.TransactionCategory, opt => opt.MapFrom(src => src.TransactionCategory))
+                .ForMember(dest => dest.TypeOfTax, opt => opt.MapFrom(src => src.TypeOfTax))
+                .ForMember(dest => dest.TaxPercentage, opt => opt.MapFrom(src => src.TaxPercentage))
                 .ReverseMap(); // For reverse mapping if needed
         }
     }

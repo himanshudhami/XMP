@@ -13,5 +13,9 @@ namespace XMP.Domain.Entities
         public string BankBranchName { get; set; }
         public string BankName { get; set; }
         public string CompanyName { get; set; }
+        public string? ReceiverName { get; set; }
+        public string? TransactionCategory { get; set; }
+        public string? TypeOfTax { get; set; }
+        public float TaxPercentage { get; set; }
     }
 }
