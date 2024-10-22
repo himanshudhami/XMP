@@ -1,0 +1,80 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.jfm.lock
+
+# User-specific files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.jfm.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Other files
+*.pdb
+*.mdb
+*.cache
+*.ilk
+*.idb
+*.ipch
+*.aps
+*.pch
+*.obj
+*.exe
+*.dll
+*.app
+*.appx
+*.appxbundle
+*.appxupload
+*.appxmanifest
+*.appmanifest
+*.vsix
+*.vsixmanifest
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+*.symbols.snupkg

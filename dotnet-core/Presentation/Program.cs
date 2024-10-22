@@ -23,14 +23,32 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add AutoMapper (if you're using it)
-builder.Services.AddAutoMapper(typeof(XMP.Application.Mappers.AxisBankTransactionProfile)); // Correct namespace for your AutoMapper profile
+builder.Services.AddAutoMapper(typeof(XMP.Application.Mappers.UserProfile)); // Correct namespace for your AutoMapper profile
 
 // Add repository and service dependencies
-builder.Services.AddScoped<IAxisBankTransactionRepository, AxisBankTransactionRepository>();
-builder.Services.AddScoped<IAxisBankTransactionService, AxisBankTransactionService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
+builder.Services.AddAutoMapper(typeof(XMP.Application.Mappers.CompanyProfile)); // Correct namespace for your AutoMapper profile
+
+// Add repository and service dependencies
+builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+
+builder.Services.AddAutoMapper(typeof(XMP.Application.Mappers.UserProfile)); // Correct namespace for your AutoMapper profile
+
+// Add repository and service dependencies
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
 // Add Controllers
 builder.Services.AddControllers();
+
+// Add Status repository and service dependencies
+builder.Services.AddScoped<IStatusRepository, StatusRepository>();
+builder.Services.AddScoped<IStatusService, StatusService>();
+
+// Add AutoMapper for Status
+builder.Services.AddAutoMapper(typeof(XMP.Application.Mappers.StatusProfile)); // Correct namespace for your AutoMapper profile
 
 var app = builder.Build();
 
